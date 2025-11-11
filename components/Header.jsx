@@ -4,17 +4,21 @@ export const Header = () => {
   const items = [
     {
       label: "About",
-      bgColor: "#0D0716",
-      textColor: "#fff",
+      bgColor: "rgba(255, 255, 255, 0.7)",
+      textColor: "#000",
       links: [
-        { label: "About Us", ariaLabel: "About Us" },
-        { label: "FAQ", ariaLabel: "Frequently Asked Questions" },
+        { label: "About Us", ariaLabel: "About Us", href: "about" },
+        {
+          label: "FAQ",
+          ariaLabel: "Frequently Asked Questions",
+          href: "about",
+        },
       ],
     },
     {
       label: "Learning Path",
-      bgColor: "#170D27",
-      textColor: "#fff",
+      bgColor: "rgba(255, 255, 255, 0.7)",
+      textColor: "#000",
       links: [
         { label: "React", ariaLabel: "React Learning Path" },
         { label: "Front-End", ariaLabel: "Front End Learning Path" },
@@ -22,8 +26,8 @@ export const Header = () => {
     },
     {
       label: "Contact",
-      bgColor: "#271E37",
-      textColor: "#fff",
+      bgColor: "rgba(255, 255, 255, 0.7)",
+      textColor: "#000",
       links: [
         { label: "Instagram", ariaLabel: "Email us" },
         { label: "Twitter", ariaLabel: "Twitter" },
