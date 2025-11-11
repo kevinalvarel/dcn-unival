@@ -1,7 +1,14 @@
 import React from "react";
+import { Hero } from "./components/Hero";
+import Learning from "./components/Learning";
 
 const Page = () => {
-  return <div>Page</div>;
+  return (
+    <>
+      <Hero />
+      <Learning />
+    </>
+  );
 };
 
 export default Page;
