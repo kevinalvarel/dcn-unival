@@ -20,8 +20,12 @@ export const Header = () => {
       bgColor: "rgba(255, 255, 255, 0.7)",
       textColor: "#000",
       links: [
-        { label: "React", ariaLabel: "React Learning Path" },
-        { label: "Front-End", ariaLabel: "Front End Learning Path" },
+        { label: "React", ariaLabel: "React Learning Path", href: "path" },
+        {
+          label: "Front-End",
+          ariaLabel: "Front End Learning Path",
+          href: "path",
+        },
       ],
     },
     {
