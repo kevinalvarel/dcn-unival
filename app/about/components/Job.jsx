@@ -11,7 +11,7 @@ const Job = () => {
       <div className="relative z-10">
         {/* Title Section */}
         <div className="text-center mb-16 max-w-2xl mx-auto">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-800 mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-800 mb-4">
             What We <span className="text-green-500">Do?</span>
           </h2>
           <p className="text-neutral-600 text-lg">
@@ -32,7 +32,7 @@ const Job = () => {
             enableBorderGlow={true}
             enableTilt={true}
             enableMagnetism={true}
-            clickEffect={true}
+            clickEffect={false}
             spotlightRadius={300}
             particleCount={12}
             glowColor="16, 185, 129"
