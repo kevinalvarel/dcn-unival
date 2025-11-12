@@ -4,6 +4,7 @@ import { FaReact, FaCode } from "react-icons/fa";
 import { BackgroundGradient } from "./ui/gradient";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -98,6 +99,7 @@ const Learning = () => {
         "Master modern React development with hooks, components, and state management. Build dynamic, interactive web applications.",
       topics: ["Components", "Hooks", "State Management", "Routing", "Testing"],
       color: "#024d34",
+      link: "/react",
     },
     {
       title: "Front-End",
@@ -112,6 +114,7 @@ const Learning = () => {
         "Accessibility",
       ],
       color: "#024d34",
+      link: "/front-end",
     },
   ];
 
@@ -190,9 +193,11 @@ const Learning = () => {
                     </div>
 
                     {/* CTA Button */}
-                    <button className="w-full px-6 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors duration-300 hover:shadow-lg hover:shadow-green-500/30">
-                      Start Learning
-                    </button>
+                    <Link href={path.link}>
+                      <button className="w-full px-6 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors duration-300 hover:shadow-lg hover:shadow-green-500/30 cursor-pointer">
+                        Start Learning
+                      </button>
+                    </Link>
                   </div>
                 </BackgroundGradient>
               </div>

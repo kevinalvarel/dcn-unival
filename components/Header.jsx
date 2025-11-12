@@ -6,6 +6,8 @@ export const Header = () => {
       label: "About",
       bgColor: "rgba(255, 255, 255, 0.7)",
       textColor: "#000",
+      href: "about",
+
       links: [
         { label: "About Us", ariaLabel: "About Us", href: "about" },
         {
@@ -19,12 +21,17 @@ export const Header = () => {
       label: "Learning Path",
       bgColor: "rgba(255, 255, 255, 0.7)",
       textColor: "#000",
+      href: "path",
       links: [
-        { label: "React", ariaLabel: "React Learning Path", href: "path" },
+        {
+          label: "React",
+          ariaLabel: "React Learning Path",
+          href: "/react",
+        },
         {
           label: "Front-End",
           ariaLabel: "Front End Learning Path",
-          href: "path",
+          href: "/front-end",
         },
       ],
     },
@@ -33,9 +40,11 @@ export const Header = () => {
       bgColor: "rgba(255, 255, 255, 0.7)",
       textColor: "#000",
       links: [
-        { label: "Instagram", ariaLabel: "Email us" },
-        { label: "Twitter", ariaLabel: "Twitter" },
-        { label: "LinkedIn", ariaLabel: "LinkedIn" },
+        {
+          label: "Instagram",
+          ariaLabel: "Email us",
+          href: "https://www.instagram.com/dcn.unival/",
+        },
       ],
     },
   ];

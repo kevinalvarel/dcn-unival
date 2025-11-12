@@ -110,7 +110,7 @@ const About = () => {
       className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-white py-15 px-4"
     >
       {/* Background decoration */}
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-green-400/10 rounded-full blur-3xl -ml-40 -mb-40" />
+      <div className="absolute bottom-60 left-0 w-96 h-96 bg-green-400/10 rounded-full blur-3xl -ml-40 -mb-40" />
 
       <div className="relative z-10 w-full max-w-6xl">
         {/* Title */}

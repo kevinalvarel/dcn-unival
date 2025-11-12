@@ -1,0 +1,370 @@
+{
+  "react": {
+    "title": "React Learning Roadmap",
+    "description": "Master React from beginner to advanced level with this comprehensive roadmap",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Foundations",
+        "duration": "2-3 weeks",
+        "topics": [
+          {
+            "name": "JavaScript Basics",
+            "subtopics": [
+              "Variables & Data Types",
+              "Functions",
+              "ES6+ Features",
+              "Async/Await"
+            ]
+          },
+          {
+            "name": "React Fundamentals",
+            "subtopics": ["JSX", "Components", "Props", "State Basics"]
+          },
+          {
+            "name": "Project: Todo App",
+            "subtopics": [
+              "Create your first React app",
+              "Manage state",
+              "Handle events"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Core Concepts",
+        "duration": "3-4 weeks",
+        "topics": [
+          {
+            "name": "Hooks",
+            "subtopics": [
+              "useState",
+              "useEffect",
+              "useContext",
+              "useReducer",
+              "Custom Hooks"
+            ]
+          },
+          {
+            "name": "State Management",
+            "subtopics": [
+              "Lifting State Up",
+              "Context API",
+              "Props Drilling Solutions"
+            ]
+          },
+          {
+            "name": "Project: Weather App",
+            "subtopics": [
+              "Fetch API data",
+              "Use hooks effectively",
+              "Style with CSS"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Advanced Topics",
+        "duration": "4-5 weeks",
+        "topics": [
+          {
+            "name": "Routing",
+            "subtopics": [
+              "React Router",
+              "Nested Routes",
+              "Dynamic Routing",
+              "Navigation"
+            ]
+          },
+          {
+            "name": "Performance",
+            "subtopics": [
+              "Code Splitting",
+              "Lazy Loading",
+              "Memoization",
+              "useCallback",
+              "useMemo"
+            ]
+          },
+          {
+            "name": "Project: Multi-Page Blog",
+            "subtopics": [
+              "Implement routing",
+              "Optimize performance",
+              "SEO considerations"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Ecosystem & Tools",
+        "duration": "2-3 weeks",
+        "topics": [
+          {
+            "name": "State Management Libraries",
+            "subtopics": ["Redux", "Zustand", "Jotai", "Redux Toolkit"]
+          },
+          {
+            "name": "Testing",
+            "subtopics": [
+              "Jest",
+              "React Testing Library",
+              "Unit Tests",
+              "Integration Tests"
+            ]
+          },
+          {
+            "name": "Build Tools",
+            "subtopics": [
+              "Vite",
+              "Webpack",
+              "Environment Variables",
+              "Deployment"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Real-World Projects",
+        "duration": "6-8 weeks",
+        "topics": [
+          {
+            "name": "Full-Stack Development",
+            "subtopics": [
+              "Backend Integration",
+              "API Consumption",
+              "Authentication",
+              "Error Handling"
+            ]
+          },
+          {
+            "name": "Advanced Patterns",
+            "subtopics": [
+              "Render Props",
+              "Higher-Order Components",
+              "Compound Components"
+            ]
+          },
+          {
+            "name": "Portfolio Projects",
+            "subtopics": [
+              "E-commerce Platform",
+              "Social Media App",
+              "Project Management Tool"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "frontEnd": {
+    "title": "Front-End Learning Roadmap",
+    "description": "Master modern front-end development from HTML fundamentals to advanced JavaScript and responsive design",
+    "phases": [
+      {
+        "id": 1,
+        "title": "Web Fundamentals",
+        "duration": "2-3 weeks",
+        "topics": [
+          {
+            "name": "HTML Essentials",
+            "subtopics": [
+              "HTML Structure",
+              "Semantic HTML",
+              "Forms & Input",
+              "Accessibility"
+            ]
+          },
+          {
+            "name": "CSS Basics",
+            "subtopics": [
+              "Selectors & Properties",
+              "Box Model",
+              "Flexbox",
+              "Grid Basics"
+            ]
+          },
+          {
+            "name": "Project: Personal Portfolio",
+            "subtopics": [
+              "Build static website",
+              "Use semantic HTML",
+              "Style with CSS"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Responsive Design",
+        "duration": "2-3 weeks",
+        "topics": [
+          {
+            "name": "Responsive Layouts",
+            "subtopics": [
+              "Media Queries",
+              "Mobile-First Design",
+              "Viewport Configuration",
+              "Flexible Grids"
+            ]
+          },
+          {
+            "name": "Advanced CSS",
+            "subtopics": [
+              "CSS Grid Advanced",
+              "Transforms & Transitions",
+              "Animations",
+              "CSS Variables"
+            ]
+          },
+          {
+            "name": "Project: Responsive Website",
+            "subtopics": [
+              "Mobile responsive design",
+              "Cross-browser compatibility",
+              "Performance optimization"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "JavaScript Fundamentals",
+        "duration": "3-4 weeks",
+        "topics": [
+          {
+            "name": "JavaScript Basics",
+            "subtopics": [
+              "Variables & Data Types",
+              "Operators & Control Flow",
+              "Functions",
+              "Scope & Closures"
+            ]
+          },
+          {
+            "name": "DOM Manipulation",
+            "subtopics": [
+              "Selecting Elements",
+              "Event Listeners",
+              "Modifying DOM",
+              "Event Delegation"
+            ]
+          },
+          {
+            "name": "Project: Interactive Web App",
+            "subtopics": [
+              "Add interactivity",
+              "Handle user events",
+              "Manipulate DOM dynamically"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Modern JavaScript",
+        "duration": "3-4 weeks",
+        "topics": [
+          {
+            "name": "ES6+ Features",
+            "subtopics": [
+              "Arrow Functions",
+              "Destructuring",
+              "Template Literals",
+              "Classes & OOP",
+              "Modules"
+            ]
+          },
+          {
+            "name": "Async JavaScript",
+            "subtopics": [
+              "Promises",
+              "Async/Await",
+              "Fetch API",
+              "Error Handling"
+            ]
+          },
+          {
+            "name": "Project: API Integration",
+            "subtopics": [
+              "Fetch external data",
+              "Handle async operations",
+              "Build dynamic content"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Front-End Tools & Frameworks",
+        "duration": "4-5 weeks",
+        "topics": [
+          {
+            "name": "Build Tools & Package Managers",
+            "subtopics": [
+              "npm & yarn",
+              "Webpack Basics",
+              "Vite",
+              "Version Control (Git)"
+            ]
+          },
+          {
+            "name": "CSS Frameworks & Preprocessors",
+            "subtopics": [
+              "Tailwind CSS",
+              "SASS/SCSS",
+              "Bootstrap",
+              "Styled Components"
+            ]
+          },
+          {
+            "name": "Testing & Debugging",
+            "subtopics": [
+              "Browser DevTools",
+              "Unit Testing",
+              "Debugging Techniques",
+              "Performance Profiling"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Advanced Front-End",
+        "duration": "4-6 weeks",
+        "topics": [
+          {
+            "name": "Progressive Web Apps",
+            "subtopics": [
+              "Service Workers",
+              "Web APIs",
+              "Offline Support",
+              "Performance Optimization"
+            ]
+          },
+          {
+            "name": "Component Libraries",
+            "subtopics": [
+              "Web Components",
+              "Component Design Patterns",
+              "Reusable Components",
+              "Documentation"
+            ]
+          },
+          {
+            "name": "Portfolio Projects",
+            "subtopics": [
+              "Complex Web Applications",
+              "Real-world Projects",
+              "Production Deployment"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
