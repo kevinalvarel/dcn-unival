@@ -3,7 +3,6 @@ import React from "react";
 import Link from "next/link";
 
 import { FaInstagram } from "react-icons/fa";
-import Image from "next/image";
 
 const Footer = () => {
   const footerLinks = {

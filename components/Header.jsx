@@ -15,6 +15,7 @@ export const Header = () => {
           ariaLabel: "Frequently Asked Questions",
           href: "about",
         },
+        { label: "Benefits", ariaLabel: "Benefits", href: "about" },
       ],
     },
     {
