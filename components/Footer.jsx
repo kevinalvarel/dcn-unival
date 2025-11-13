@@ -8,10 +8,9 @@ import Image from "next/image";
 const Footer = () => {
   const footerLinks = {
     Important: [
-      { label: "About Us", href: "#about" },
-      { label: "Learning Paths", href: "#learning" },
-      { label: "Community", href: "#community" },
-      { label: "Contact", href: "#contact" },
+      { label: "About Us", href: "/about" },
+      { label: "React Learning Path", href: "/react" },
+      { label: "Front-End Learning Path", href: "/front-end" },
     ],
   };
 
