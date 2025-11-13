@@ -60,7 +60,7 @@ export function RoadmapFE() {
             >
               {/* Phase Header */}
               <div className="mb-8">
-                <div className="flex items-center gap-4 mb-2">
+                <div className="flex items-center gap-4 mb-4">
                   <div className="flex items-center justify-center w-10 h-10 rounded-full bg-green-500 text-white font-bold">
                     {phase.id}
                   </div>
@@ -68,9 +68,59 @@ export function RoadmapFE() {
                     {phase.title}
                   </h2>
                 </div>
-                <p className="text-sm text-neutral-500 ml-14">
-                  Duration: {phase.duration}
-                </p>
+
+                {/* Course Metadata Cards */}
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-3 ml-14">
+                  {/* Duration */}
+                  <div className="bg-blue-50 rounded-lg p-3 border border-blue-200">
+                    <p className="text-xs text-neutral-600 font-semibold">
+                      DURASI
+                    </p>
+                    <p className="text-sm font-bold text-neutral-800">
+                      {phase.duration}
+                    </p>
+                  </div>
+
+                  {/* Rating */}
+                  <div className="bg-yellow-50 rounded-lg p-3 border border-yellow-200">
+                    <p className="text-xs text-neutral-600 font-semibold">
+                      RATING
+                    </p>
+                    <p className="text-sm font-bold text-neutral-800">
+                      ⭐ {phase.rating}
+                    </p>
+                  </div>
+
+                  {/* Modules */}
+                  <div className="bg-purple-50 rounded-lg p-3 border border-purple-200">
+                    <p className="text-xs text-neutral-600 font-semibold">
+                      MODUL
+                    </p>
+                    <p className="text-sm font-bold text-neutral-800">
+                      {phase.modules}
+                    </p>
+                  </div>
+
+                  {/* Students */}
+                  <div className="bg-pink-50 rounded-lg p-3 border border-pink-200">
+                    <p className="text-xs text-neutral-600 font-semibold">
+                      SISWA
+                    </p>
+                    <p className="text-sm font-bold text-neutral-800">
+                      {phase.students.toLocaleString("en-US")}
+                    </p>
+                  </div>
+
+                  {/* Difficulty */}
+                  <div className="bg-green-50 rounded-lg p-3 border border-green-200">
+                    <p className="text-xs text-neutral-600 font-semibold">
+                      LEVEL
+                    </p>
+                    <p className="text-sm font-bold text-green-600">
+                      {phase.difficulty}
+                    </p>
+                  </div>
+                </div>
               </div>
 
               {/* Phase Topics */}

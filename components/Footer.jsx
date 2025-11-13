@@ -3,8 +3,7 @@ import React from "react";
 import Link from "next/link";
 
 import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = () => {
   const footerLinks = {
@@ -28,9 +27,12 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="flex-1">
               <div className="mb-6">
-                <h3 className="text-2xl font-bold text-neutral-800">
-                  <span className="text-green-500">DCN</span>-UNIVAL
-                </h3>
+                <Image
+                  alt="Dicoding x Unival Logo"
+                  src="/logo.png"
+                  width={250}
+                  height={250}
+                />
                 <p className="text-neutral-600 text-sm mt-2">
                   Growing together in knowledge and innovation.
                 </p>
@@ -43,22 +45,6 @@ const Footer = () => {
                   className="w-10 h-10 rounded-full bg-green-500/10 hover:bg-green-500/20 flex items-center justify-center text-green-500 transition-all duration-300"
                 >
                   <FaInstagram size={20} />
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-green-500/10 hover:bg-green-500/20 flex items-center justify-center text-green-500 transition-all duration-300"
-                >
-                  <FaTwitter size={20} />
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-green-500/10 hover:bg-green-500/20 flex items-center justify-center text-green-500 transition-all duration-300"
-                >
-                  <FaLinkedin size={20} />
                 </a>
               </div>
             </div>

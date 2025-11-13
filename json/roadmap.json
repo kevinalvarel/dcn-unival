@@ -1,160 +1,233 @@
 {
   "react": {
-    "title": "React Learning Roadmap",
-    "description": "Master React from beginner to advanced level with this comprehensive roadmap",
+    "title": "Roadmap Pembelajaran React",
+    "description": "Kuasai React dari pemula hingga tingkat lanjutan dengan roadmap komprehensif ini",
     "phases": [
       {
         "id": 1,
-        "title": "Foundations",
-        "duration": "2-3 weeks",
+        "level": 1,
+        "title": "Belajar Dasar Pemrograman Web",
+        "duration": "45 Jam",
+        "rating": 4.88,
+        "students": 232864,
+        "modules": 131,
+        "difficulty": "Pemula",
         "topics": [
           {
-            "name": "JavaScript Basics",
+            "name": "HTML Dasar",
             "subtopics": [
-              "Variables & Data Types",
-              "Functions",
-              "ES6+ Features",
-              "Async/Await"
+              "Struktur HTML",
+              "Tag Semantik",
+              "Form & Input",
+              "Aksesibilitas"
             ]
           },
           {
-            "name": "React Fundamentals",
-            "subtopics": ["JSX", "Components", "Props", "State Basics"]
+            "name": "CSS Dasar",
+            "subtopics": [
+              "Selector & Properti",
+              "Box Model",
+              "Flexbox",
+              "Grid Dasar"
+            ]
           },
           {
-            "name": "Project: Todo App",
+            "name": "Proyek Akhir",
             "subtopics": [
-              "Create your first React app",
-              "Manage state",
-              "Handle events"
+              "Membuat Website Pertama",
+              "Layouting",
+              "Responsive Design"
             ]
           }
         ]
       },
       {
         "id": 2,
-        "title": "Core Concepts",
-        "duration": "3-4 weeks",
+        "level": 2,
+        "title": "Belajar Dasar Javascript",
+        "duration": "46 Jam",
+        "rating": 4.9,
+        "students": 233291,
+        "modules": 111,
+        "difficulty": "Pemula",
         "topics": [
           {
-            "name": "Hooks",
+            "name": "Dasar JavaScript",
             "subtopics": [
-              "useState",
-              "useEffect",
-              "useContext",
-              "useReducer",
-              "Custom Hooks"
+              "Variabel & Tipe Data",
+              "Fungsi",
+              "Alur Kontrol",
+              "Manipulasi DOM"
             ]
           },
           {
-            "name": "State Management",
+            "name": "Fitur ES6+",
             "subtopics": [
-              "Lifting State Up",
-              "Context API",
-              "Props Drilling Solutions"
+              "Arrow Functions",
+              "Destructuring",
+              "Template Literals",
+              "Modul"
             ]
           },
           {
-            "name": "Project: Weather App",
+            "name": "Proyek Akhir",
             "subtopics": [
-              "Fetch API data",
-              "Use hooks effectively",
-              "Style with CSS"
+              "Membangun Website Interaktif",
+              "Event Handling",
+              "Integrasi API"
             ]
           }
         ]
       },
       {
         "id": 3,
-        "title": "Advanced Topics",
-        "duration": "4-5 weeks",
+        "level": 3,
+        "title": "Belajar Membuat Front-End Web untuk Pemula",
+        "duration": "55 Jam",
+        "rating": 4.88,
+        "students": 152017,
+        "modules": 69,
+        "difficulty": "Menengah",
         "topics": [
           {
-            "name": "Routing",
+            "name": "Dasar Front-End",
             "subtopics": [
-              "React Router",
-              "Nested Routes",
-              "Dynamic Routing",
-              "Navigation"
+              "Desain Web Responsif",
+              "CSS Flexbox & Grid",
+              "Mobile First",
+              "Kompatibilitas Antar Browser"
             ]
           },
           {
-            "name": "Performance",
+            "name": "CSS Lanjutan",
             "subtopics": [
-              "Code Splitting",
-              "Lazy Loading",
-              "Memoization",
-              "useCallback",
-              "useMemo"
+              "CSS Animations",
+              "CSS Transitions",
+              "CSS Variables",
+              "SASS/SCSS"
             ]
           },
           {
-            "name": "Project: Multi-Page Blog",
+            "name": "Proyek Portfolio",
             "subtopics": [
-              "Implement routing",
-              "Optimize performance",
-              "SEO considerations"
+              "Membangun Portfolio Profesional",
+              "Optimasi Performa",
+              "SEO Best Practices"
             ]
           }
         ]
       },
       {
         "id": 4,
-        "title": "Ecosystem & Tools",
-        "duration": "2-3 weeks",
+        "level": 4,
+        "title": "Belajar Membuat Aplikasi Web dengan React",
+        "duration": "35 Jam",
+        "rating": 4.9,
+        "students": 28558,
+        "modules": 56,
+        "difficulty": "Pemula",
         "topics": [
           {
-            "name": "State Management Libraries",
-            "subtopics": ["Redux", "Zustand", "Jotai", "Redux Toolkit"]
-          },
-          {
-            "name": "Testing",
+            "name": "Dasar React",
             "subtopics": [
-              "Jest",
-              "React Testing Library",
-              "Unit Tests",
-              "Integration Tests"
+              "Components & JSX",
+              "Props & State",
+              "Event Handling",
+              "Form Handling"
             ]
           },
           {
-            "name": "Build Tools",
+            "name": "React Hooks",
             "subtopics": [
-              "Vite",
-              "Webpack",
-              "Environment Variables",
-              "Deployment"
+              "useState Hook",
+              "useEffect Hook",
+              "useContext Hook",
+              "Custom Hooks"
+            ]
+          },
+          {
+            "name": "Proyek Aplikasi",
+            "subtopics": [
+              "Membangun Aplikasi Web",
+              "Manajemen State",
+              "Integrasi API"
             ]
           }
         ]
       },
       {
         "id": 5,
-        "title": "Real-World Projects",
-        "duration": "6-8 weeks",
+        "level": 5,
+        "title": "Belajar Fundamental Aplikasi Web dengan React",
+        "duration": "55 Jam",
+        "rating": 4.92,
+        "students": 4547,
+        "modules": 70,
+        "difficulty": "Menengah",
         "topics": [
           {
-            "name": "Full-Stack Development",
+            "name": "React Lanjutan",
             "subtopics": [
-              "Backend Integration",
-              "API Consumption",
-              "Authentication",
-              "Error Handling"
+              "React Router",
+              "Code Splitting",
+              "Lazy Loading",
+              "Error Boundaries"
             ]
           },
           {
-            "name": "Advanced Patterns",
+            "name": "Manajemen State",
+            "subtopics": [
+              "Context API Lanjutan",
+              "Redux Dasar",
+              "Zustand",
+              "State Persistence"
+            ]
+          },
+          {
+            "name": "Proyek Enterprise",
+            "subtopics": [
+              "Membangun Aplikasi Skala Besar",
+              "Monitoring Performa",
+              "Production Deployment"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "level": 6,
+        "title": "Menjadi React Web Developer Expert",
+        "duration": "70 Jam",
+        "rating": 4.9,
+        "students": 2657,
+        "modules": 103,
+        "difficulty": "Mahir",
+        "topics": [
+          {
+            "name": "React Pattern Expert",
             "subtopics": [
               "Render Props",
               "Higher-Order Components",
-              "Compound Components"
+              "Compound Components",
+              "Advanced Hooks"
             ]
           },
           {
-            "name": "Portfolio Projects",
+            "name": "Testing & Performa",
             "subtopics": [
-              "E-commerce Platform",
-              "Social Media App",
-              "Project Management Tool"
+              "Unit Testing dengan Jest",
+              "Integration Testing",
+              "Optimasi Performa",
+              "Monitoring & Debugging"
+            ]
+          },
+          {
+            "name": "Proyek Profesional",
+            "subtopics": [
+              "Full-Stack Development",
+              "Real-world Architecture",
+              "DevOps & Deployment",
+              "Career Development"
             ]
           }
         ]
@@ -162,205 +235,234 @@
     ]
   },
   "frontEnd": {
-    "title": "Front-End Learning Roadmap",
-    "description": "Master modern front-end development from HTML fundamentals to advanced JavaScript and responsive design",
+    "title": "Roadmap Pembelajaran Front-End",
+    "description": "Kuasai pengembangan front-end modern dari HTML dasar hingga JavaScript lanjutan dan desain responsif",
     "phases": [
       {
         "id": 1,
-        "title": "Web Fundamentals",
-        "duration": "2-3 weeks",
+        "level": 1,
+        "title": "Belajar Dasar Pemrograman Web",
+        "duration": "45 Jam",
+        "rating": 4.88,
+        "students": 232864,
+        "modules": 131,
+        "difficulty": "Pemula",
         "topics": [
           {
-            "name": "HTML Essentials",
+            "name": "HTML Dasar",
             "subtopics": [
-              "HTML Structure",
-              "Semantic HTML",
-              "Forms & Input",
-              "Accessibility"
+              "Struktur HTML",
+              "Tag Semantik",
+              "Form & Input",
+              "Aksesibilitas"
             ]
           },
           {
-            "name": "CSS Basics",
+            "name": "CSS Dasar",
             "subtopics": [
-              "Selectors & Properties",
+              "Selector & Properti",
               "Box Model",
               "Flexbox",
-              "Grid Basics"
+              "Grid Dasar"
             ]
           },
           {
-            "name": "Project: Personal Portfolio",
+            "name": "Proyek Akhir",
             "subtopics": [
-              "Build static website",
-              "Use semantic HTML",
-              "Style with CSS"
+              "Membuat Website Pertama",
+              "Layouting",
+              "Responsive Design"
             ]
           }
         ]
       },
       {
         "id": 2,
-        "title": "Responsive Design",
-        "duration": "2-3 weeks",
+        "level": 2,
+        "title": "Belajar Dasar Javascript",
+        "duration": "46 Jam",
+        "rating": 4.9,
+        "students": 233291,
+        "modules": 111,
+        "difficulty": "Pemula",
         "topics": [
           {
-            "name": "Responsive Layouts",
+            "name": "Dasar JavaScript",
             "subtopics": [
-              "Media Queries",
-              "Mobile-First Design",
-              "Viewport Configuration",
-              "Flexible Grids"
+              "Variabel & Tipe Data",
+              "Fungsi",
+              "Alur Kontrol",
+              "Manipulasi DOM"
             ]
           },
           {
-            "name": "Advanced CSS",
+            "name": "Fitur ES6+",
             "subtopics": [
-              "CSS Grid Advanced",
-              "Transforms & Transitions",
-              "Animations",
-              "CSS Variables"
+              "Arrow Functions",
+              "Destructuring",
+              "Template Literals",
+              "Modul"
             ]
           },
           {
-            "name": "Project: Responsive Website",
+            "name": "Proyek Akhir",
             "subtopics": [
-              "Mobile responsive design",
-              "Cross-browser compatibility",
-              "Performance optimization"
+              "Membangun Website Interaktif",
+              "Event Handling",
+              "Integrasi API"
             ]
           }
         ]
       },
       {
         "id": 3,
-        "title": "JavaScript Fundamentals",
-        "duration": "3-4 weeks",
+        "level": 3,
+        "title": "Belajar Membuat Front-End Web untuk Pemula",
+        "duration": "55 Jam",
+        "rating": 4.88,
+        "students": 152017,
+        "modules": 69,
+        "difficulty": "Menengah",
         "topics": [
           {
-            "name": "JavaScript Basics",
+            "name": "Dasar Front-End",
             "subtopics": [
-              "Variables & Data Types",
-              "Operators & Control Flow",
-              "Functions",
-              "Scope & Closures"
+              "Desain Web Responsif",
+              "CSS Flexbox & Grid",
+              "Mobile First",
+              "Kompatibilitas Antar Browser"
             ]
           },
           {
-            "name": "DOM Manipulation",
+            "name": "CSS Lanjutan",
             "subtopics": [
-              "Selecting Elements",
-              "Event Listeners",
-              "Modifying DOM",
-              "Event Delegation"
+              "CSS Animations",
+              "CSS Transitions",
+              "CSS Variables",
+              "SASS/SCSS"
             ]
           },
           {
-            "name": "Project: Interactive Web App",
+            "name": "Proyek Portfolio",
             "subtopics": [
-              "Add interactivity",
-              "Handle user events",
-              "Manipulate DOM dynamically"
+              "Membangun Portfolio Profesional",
+              "Optimasi Performa",
+              "SEO Best Practices"
             ]
           }
         ]
       },
       {
         "id": 4,
-        "title": "Modern JavaScript",
-        "duration": "3-4 weeks",
+        "level": 4,
+        "title": "Mengenal React untuk Pemula",
+        "duration": "35 Jam",
+        "rating": 4.9,
+        "students": 28558,
+        "modules": 56,
+        "difficulty": "Pemula",
         "topics": [
           {
-            "name": "ES6+ Features",
+            "name": "Dasar React",
             "subtopics": [
-              "Arrow Functions",
-              "Destructuring",
-              "Template Literals",
-              "Classes & OOP",
-              "Modules"
+              "Components & JSX",
+              "Props & State",
+              "Event Handling",
+              "Form Handling"
             ]
           },
           {
-            "name": "Async JavaScript",
+            "name": "React Hooks",
             "subtopics": [
-              "Promises",
-              "Async/Await",
-              "Fetch API",
-              "Error Handling"
+              "useState Hook",
+              "useEffect Hook",
+              "useContext Hook",
+              "Custom Hooks"
             ]
           },
           {
-            "name": "Project: API Integration",
+            "name": "Proyek Aplikasi",
             "subtopics": [
-              "Fetch external data",
-              "Handle async operations",
-              "Build dynamic content"
+              "Membangun Aplikasi Web",
+              "Manajemen State",
+              "Integrasi API"
             ]
           }
         ]
       },
       {
         "id": 5,
-        "title": "Front-End Tools & Frameworks",
-        "duration": "4-5 weeks",
+        "level": 5,
+        "title": "Belajar Front-End Developer yang Profesional",
+        "duration": "55 Jam",
+        "rating": 4.92,
+        "students": 4547,
+        "modules": 70,
+        "difficulty": "Menengah",
         "topics": [
           {
-            "name": "Build Tools & Package Managers",
+            "name": "Advanced Front-End",
             "subtopics": [
-              "npm & yarn",
-              "Webpack Basics",
-              "Vite",
-              "Version Control (Git)"
+              "Optimasi Performa",
+              "Web Accessibility",
+              "Progressive Web Apps",
+              "Build Tools & Bundlers"
             ]
           },
           {
-            "name": "CSS Frameworks & Preprocessors",
+            "name": "CSS Framework Modern",
             "subtopics": [
               "Tailwind CSS",
-              "SASS/SCSS",
-              "Bootstrap",
-              "Styled Components"
+              "Styled Components",
+              "CSS-in-JS Solutions",
+              "Design Systems"
             ]
           },
           {
-            "name": "Testing & Debugging",
+            "name": "Proyek Enterprise",
             "subtopics": [
-              "Browser DevTools",
-              "Unit Testing",
-              "Debugging Techniques",
-              "Performance Profiling"
+              "Membangun Aplikasi Skala Besar",
+              "Monitoring Performa",
+              "Production Deployment"
             ]
           }
         ]
       },
       {
         "id": 6,
-        "title": "Advanced Front-End",
-        "duration": "4-6 weeks",
+        "level": 6,
+        "title": "Menjadi Front-End Web Developer Expert",
+        "duration": "70 Jam",
+        "rating": 4.9,
+        "students": 2657,
+        "modules": 103,
+        "difficulty": "Mahir",
         "topics": [
           {
-            "name": "Progressive Web Apps",
+            "name": "Expert Front-End Patterns",
             "subtopics": [
-              "Service Workers",
-              "Web APIs",
-              "Offline Support",
-              "Performance Optimization"
+              "Advanced Component Patterns",
+              "State Management Mastery",
+              "Advanced Hooks & Optimization",
+              "Testing Strategies"
             ]
           },
           {
-            "name": "Component Libraries",
+            "name": "Performa & Keamanan",
             "subtopics": [
-              "Web Components",
-              "Component Design Patterns",
-              "Reusable Components",
-              "Documentation"
+              "Advanced Performance Tuning",
+              "Security Best Practices",
+              "Monitoring & Analytics",
+              "DevOps for Front-End"
             ]
           },
           {
-            "name": "Portfolio Projects",
+            "name": "Professional Project",
             "subtopics": [
-              "Complex Web Applications",
-              "Real-world Projects",
-              "Production Deployment"
+              "Full-Stack Development",
+              "Real-world Architecture",
+              "DevOps & Deployment",
+              "Career Development"
             ]
           }
         ]
