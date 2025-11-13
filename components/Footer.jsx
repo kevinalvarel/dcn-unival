@@ -8,9 +8,9 @@ import Image from "next/image";
 const Footer = () => {
   const footerLinks = {
     Important: [
-      { label: "About Us", href: "/about" },
-      { label: "React Learning Path", href: "/react" },
-      { label: "Front-End Learning Path", href: "/front-end" },
+      { label: "About Us", href: "about" },
+      { label: "React Learning Path", href: "react" },
+      { label: "Front-End Learning Path", href: "front-end" },
     ],
   };
 
@@ -25,20 +25,20 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row gap-8 md:gap-12">
             {/* Brand Section */}
             <div className="flex-1">
-              <div className="mb-6">
-                <Image
-                  alt="Dicoding x Unival Logo"
-                  src="/logo.png"
-                  width={250}
-                  height={250}
-                />
+              <div className="mb-6 gap-y-5">
+                <h1 className="text-neutral-900 text-3xl md:text-4xl font-bold">
+                  Dicoding Community Builder
+                </h1>
+                <h2 className=" text-xl md:text-2xl font-bold text-green-600">
+                  Universitas Al-Khairiyah
+                </h2>
                 <p className="text-neutral-600 text-sm mt-2">
                   Growing together in knowledge and innovation.
                 </p>
               </div>
               <div className="flex gap-4">
                 <a
-                  href="https://instagram.com"
+                  href="www.instagram.com/dcn.unival/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-green-500/10 hover:bg-green-500/20 flex items-center justify-center text-green-500 transition-all duration-300"
