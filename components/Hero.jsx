@@ -8,7 +8,8 @@ export function Hero() {
       <BackgroundRippleEffect />
       <div className="mt-72 w-full">
         <h2 className="relative z-10 mx-auto max-w-4xl text-center text-4xl font-bold text-neutral-800 md:text-4xl lg:text-7xl ">
-          DCN - <span className="text-green-400">UNIVAL</span>
+          Dicoding Community Network{" "}
+          <span className="text-green-400">Universitas Al-Khairiyah</span>
         </h2>
         <p className="relative z-10 mx-auto mt-4 max-w-xl text-center text-neutral-800 ">
           growing together in knowledge and innovation.
