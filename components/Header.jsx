@@ -50,14 +50,16 @@ export const Header = () => {
   ];
 
   return (
-    <CardNav
-      items={items}
-      baseColor="#fff"
-      menuColor="#000"
-      buttonBgColor="#111"
-      buttonTextColor="#fff"
-      ease="power3.out"
-      className="fixed "
-    />
+    <div className="overflow-x-hidden">
+      <CardNav
+        items={items}
+        baseColor="#fff"
+        menuColor="#000"
+        buttonBgColor="#111"
+        buttonTextColor="#fff"
+        ease="power3.out"
+        className="fixed top-4 mx-auto max-w-6xl px-4 z-50"
+      />
+    </div>
   );
 };

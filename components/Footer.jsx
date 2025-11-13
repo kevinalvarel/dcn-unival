@@ -15,7 +15,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative w-full bg-white border-t border-neutral-200">
+    <footer className="relative w-full bg-white border-t border-neutral-200 overflow-x-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-green-400/5 rounded-full blur-3xl -mr-32 -mt-32" />
 

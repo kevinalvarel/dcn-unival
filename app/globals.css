@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow Condensed", sans-serif !important;
+  font-family: var(--font-inter), sans-serif !important;
 }
 
 a {
