@@ -17,7 +17,7 @@ export function Hero() {
 
       <RotatingText
         texts={["Wanna know", "About us?", "Ingin tahu", "Tentang Kami?"]}
-        mainClassName="px-4 sm:px-6 md:px-8 text-neutral-900 overflow-hidden py-2 sm:py-3 md:py-4 justify-center rounded-lg text-6xl md:text-6xl font-bold"
+        mainClassName="px-4 sm:px-6 md:px-8 text-neutral-900 overflow-hidden py-2 sm:py-3 md:py-4 justify-center rounded-lg text-4xl md:text-6xl font-bold"
         staggerFrom={"last"}
         initial={{ y: "100%" }}
         animate={{ y: 0 }}

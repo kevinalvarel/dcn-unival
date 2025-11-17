@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -157,10 +158,16 @@ const About = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-16">
-          <button className="group relative px-8 py-3 bg-green-500 text-white font-bold rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50">
-            <div className="absolute inset-0 bg-green-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-400 origin-right" />
-            <span className="relative">Join Our Community</span>
-          </button>
+          <Link
+            href={"https://forms.gle/vSaniQXPDnPBDA1R6"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="cursor-pointer group relative px-8 py-3 bg-green-500 text-white font-bold rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50">
+              <div className="absolute inset-0 bg-green-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-400 origin-right" />
+              <span className="relative">Join Our Community</span>
+            </button>
+          </Link>
         </div>
       </div>
     </section>
