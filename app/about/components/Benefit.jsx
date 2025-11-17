@@ -1,12 +1,8 @@
 import { cn } from "@/lib/utils";
 import {
-  IconAdjustmentsBolt,
   IconCloud,
   IconCurrencyDollar,
   IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
   IconTerminal2,
 } from "@tabler/icons-react";
 
@@ -38,7 +34,7 @@ export function Benefit() {
     },
   ];
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 overflow-x-hidden">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           Benefit for Contributor
