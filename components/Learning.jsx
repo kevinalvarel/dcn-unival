@@ -121,7 +121,7 @@ const Learning = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full bg-white py-30 px-4 mt-32 overflow-x-hidden"
+      className="relative w-full bg-white py-30 px-4 mt-32 overflow-hidden"
     >
       {/* Decorative background */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-green-400/5 rounded-full blur-3xl -mr-40 -mt-40" />

@@ -13,26 +13,27 @@ import {
 export function Benefit() {
   const features = [
     {
-      title: "Materi Berkualitas Tinggi",
-      description: "Kelas Dicoding gratis (Jalur Dasar → Pemula → Lanjutan).",
+      title: "Premium Learning Path",
+      description:
+        "Access free Dicoding classes with structured pathways from basics to advanced levels.",
       icon: <IconTerminal2 />,
     },
     {
-      title: "Sertifikat resmi",
+      title: "Official Certification",
       description:
-        "Sertifikat resmi dari Dicoding bagi peserta yang menyelesaikan kursus.",
+        "Earn official certificates from Dicoding upon successful course completion.",
       icon: <IconEaseInOut />,
     },
     {
-      title: "Pembelajaran Gratis",
+      title: "Completely Free Access",
       description:
-        "Akses ke semua materi pembelajaran tanpa biaya, sepenuhnya gratis.",
+        "Unlimited access to all learning materials and resources at no cost whatsoever.",
       icon: <IconCurrencyDollar />,
     },
     {
-      title: "Kurikulum Terstruktur",
+      title: "Driven Curriculum",
       description:
-        "Kurikulum yang dirancang oleh para ahli industri dengan jelas dan terukur.",
+        "Curriculum designed by experts with clear, measurable learning outcomes.",
       icon: <IconCloud />,
     },
   ];
@@ -40,10 +41,11 @@ export function Benefit() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Benefit Kontributor
+          Benefit for Contributor
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Dapatkan keuntungan eksklusif dengan bergabung bersama komunitas pembelajar kami
+          Get exclusive benefits by joining our community of passionate web
+          development learners.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative z-10 py-10 max-w-7xl mx-auto">

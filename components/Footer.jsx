@@ -35,16 +35,6 @@ const Footer = () => {
                   Growing together in knowledge and innovation.
                 </p>
               </div>
-              <div className="flex gap-4">
-                <a
-                  href="www.instagram.com/dcn.unival/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-green-500/10 hover:bg-green-500/20 flex items-center justify-center text-green-500 transition-all duration-300"
-                >
-                  <FaInstagram size={20} />
-                </a>
-              </div>
             </div>
 
             {/* Links Sections */}
