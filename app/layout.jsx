@@ -19,6 +19,9 @@ export const metadata = {
   title: "DCN - Universitas Al-Khairiyah",
   description:
     "Dicoding Community Network x Universitas Al-Khairiyah - Empowering Future Web Developers",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
