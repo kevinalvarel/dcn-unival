@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { FaInstagram } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = () => {
   const footerLinks = {
@@ -25,15 +25,7 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="flex-1">
               <div className="mb-6 gap-y-5">
-                <h1 className="text-neutral-900 text-3xl md:text-4xl font-bold">
-                  Dicoding Community Builder
-                </h1>
-                <h2 className=" text-xl md:text-2xl font-bold text-green-600">
-                  Universitas Al-Khairiyah
-                </h2>
-                <p className="text-neutral-600 text-sm mt-2">
-                  Growing together in knowledge and innovation.
-                </p>
+                <Image src="/logo.png" alt="Logo" width={350} height={350} />
               </div>
             </div>
 
