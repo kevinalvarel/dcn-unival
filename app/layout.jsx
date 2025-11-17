@@ -24,6 +24,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="qOhAPXxNUvyj3-3xRZPqEDmrUcdHK4ppcYZCpmeYl6E"
+        />
+      </head>
       <body
         className={`${poppins.variable} ${InterFont.variable} antialiased overflow-x-hidden`}
       >
